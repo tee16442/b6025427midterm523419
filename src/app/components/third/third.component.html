@@ -14,11 +14,12 @@
     </thead>
     <tbody>
         <tr *ngFor="let item of getAllProduct(); index as i">
-            <td scope="row">
-                <td>{{item.id}}</td>
+            <td scope="row">{{item.id}}</td>
             <td>{{item.type}}</td>
             <td>{{item.name}}</td>
             <td>{{item.detail}}</td>
+            <td>{{item.quantity}}</td>
+            <td>{{item.price}}</td>
             <td>
               <a class="btn btn-outline-primary" role="button" >
                 <i class="fa fa-cart-plus" aria-hidden="true"></i></a>
